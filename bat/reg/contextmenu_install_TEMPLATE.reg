@@ -15,7 +15,7 @@ Windows Registry Editor Version 5.00
 @="Open Japanese command window here"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\cmdjp\command]
-@="\"C:\\Programs\\Tools\\Jpcmd\\jpcmdrun.exe\" /s /k pushd \"%V\""
+@="\"C:\\Programs\\Tools\\Jpcmd\\jpcmdle.exe\" /s /k pushd \"%V\""
 
 [HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\cmdjp\command]
-@="\"C:\\Programs\\Tools\\Jpcmd\\jpcmdrun.exe\" /s /k pushd \"%V\""
+@="\"C:\\Programs\\Tools\\Jpcmd\\jpcmdle.exe\" /s /k pushd \"%V\""

@@ -88,17 +88,17 @@ int wmain(int argc, wchar_t** argv) {
 	wchar_t wcLEProc[MAX_PATH] = { 0 };
 	wchar_t wcCurrentDir[MAX_PATH] = { 0 };
 	wchar_t wcPath[MAX_PATH] = { 0 };
-	//wchar_t wcConfig[MAX_PATH] = { 0 };
+	wchar_t wcConfig[MAX_PATH] = { 0 };
 	wchar_t wcJpcmd[MAX_PATH] = { 0 };
 
 	GetModuleFileNameW(nullptr, wcPath, MAX_PATH);
 	PathRemoveFileSpecW(wcPath);
-	//PathCombineW(wcConfig, wcPath, L"config.ini");
+	PathCombineW(wcConfig, wcPath, L"config.ini");
 	PathCombineW(wcJpcmd, wcPath, L"jpcmd.exe");
 
 	GetCurrentDirectoryW(MAX_PATH, wcCurrentDir);
 
-	//GetPrivateProfileStringW(L"Launch", L"LEProc", L"", wcLEProc, MAX_PATH, wcConfig);
+	GetPrivateProfileStringW(L"Launch", L"LEProc", L"", wcLEProc, MAX_PATH, wcConfig);
 
 	STARTUPINFOW StartupInfo = { 0 };
 	PROCESS_INFORMATION ProcessInfo = { 0 };

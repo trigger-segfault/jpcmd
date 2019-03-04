@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jpcmd", "jpcmd\jpcmd.vcxproj", "{D2B4F7F7-5A45-49F3-92D2-7EFF44420618}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jpcmdrun", "jpcmdrun\jpcmdrun.vcxproj", "{73295D65-4A3B-48ED-9966-4C62F9012FE6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jpcmdle", "jpcmdle\jpcmdle.vcxproj", "{73295D65-4A3B-48ED-9966-4C62F9012FE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
