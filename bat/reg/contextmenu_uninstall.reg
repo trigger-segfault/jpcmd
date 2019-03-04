@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\Directory\shell\jpcmd]
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\jpcmd]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\jpcmd\command]
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\jpcmd\command]
